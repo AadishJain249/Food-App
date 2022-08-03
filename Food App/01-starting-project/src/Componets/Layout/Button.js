@@ -4,7 +4,7 @@ import classes from './Button.module.css'
 const Button=(props)=>{
     return(
         // <Fragment>
-        <button className={classes.button}>
+        <button className={classes.button} onClick={props.onClick}>
         <span className={classes.icon}><CartIcon></CartIcon></span>
         <span>Your Cart</span>
         <span className={classes.badge}>1</span>

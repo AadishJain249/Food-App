@@ -5,8 +5,8 @@ import Button from './Button'
 const Layout=(props)=>{
     return <Fragment>
         <header className={classes.header}>
-            <h1>Hi Welcome here</h1>
-            <Button></Button>
+            <h1>Food App!</h1>
+            <Button onClick={props.onShowCart}/>
         </header>
         <div className='classes[main.image]'>
             <img src={mealImg} alt="Wrong"/>
