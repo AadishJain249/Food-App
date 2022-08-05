@@ -8,7 +8,7 @@ const Layout=(props)=>{
             <h1>Food App!</h1>
             <Button onClick={props.onShowCart}/>
         </header>
-        <div className='classes[main.image]'>
+        <div className={classes['main.image']}>
             <img src={mealImg} alt="Wrong"/>
         </div>
     </Fragment>

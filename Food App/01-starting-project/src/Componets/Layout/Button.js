@@ -13,7 +13,10 @@ const Button=(props)=>{
         <button className={classes.button} onClick={props.onClick}>
         <span className={classes.icon}><CartIcon></CartIcon></span>
         <span>Your Cart</span>
-        <span className={classes.badge}>{noOfItem}</span>
+        <span className={classes.badge}>
+            {/* 0 */}
+            {noOfItem}
+            </span>
         </button>
         // {/* </Fragment> */}
     )

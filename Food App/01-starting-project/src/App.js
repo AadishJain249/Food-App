@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import {useState } from "react";
 import Layout from "./Componets/Layout/Layout";
 import Meals from "./Componets/Meals/Meals";
 import CartItem from "./Componets/Cart/CartItem";
@@ -18,7 +18,6 @@ function App() {
       <Meals></Meals>
     </main>
     </CartProvider>
- 
+  
 }
-
 export default App;

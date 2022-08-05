@@ -38,7 +38,7 @@ const MealForm=(props)=>{
             }}
             />
             <button>+Add</button>
-            {!inState && <p>Eroor</p>}
+            {!inState && <p>Error</p>}
         </form>
     )
 }

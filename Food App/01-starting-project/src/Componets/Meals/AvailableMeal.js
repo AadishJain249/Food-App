@@ -44,6 +44,7 @@ const DUMMY_MEALS = [
             </ul>
             </Card>
             </section>
-    
-  }
+      }  
+  
+  
   export default AvailableMeal

@@ -1,4 +1,3 @@
-
 import { useContext } from 'react'
 import MealForm from './MealForm'
 import classes from './Mealitem.module.css'
@@ -11,7 +10,7 @@ const Mealitem=(props)=>{
         cartCtx.additem({
             id:props.id,
             name:props.name,
-            amount:props.amount,
+            amount:amount,
             price:props.price
         })
     }
@@ -23,7 +22,7 @@ const Mealitem=(props)=>{
             <div className={classes.price}>{price}</div>
             </div>
             <div>
-                <MealForm onCartNumber={addCart} />
+                <MealForm id={props.id} onCartNumber={addCart} />
             </div>
         </li>
     )
